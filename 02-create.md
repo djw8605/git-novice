@@ -59,18 +59,3 @@ $ git status
 nothing to commit (create/copy files and use "git add" to track)
 ~~~
 
-> ## Places to Create Git Repositories {.challenge}
->
-> The following sequence of commands creates one Git repository inside another:
-> 
-> ~~~ {.bash}
-> cd           # return to home directory
-> mkdir alpha  # make a new directory alpha
-> cd alpha     # go into alpha
-> git init     # make the alpha directory a Git repository
-> mkdir beta   # make a sub-directory alpha/beta
-> cd beta      # go into alpha/beta
-> git init     # make the beta sub-directory a Git repository
-> ~~~
-> 
-> Why is it a bad idea to do this?
